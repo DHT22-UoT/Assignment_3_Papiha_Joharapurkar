@@ -6,6 +6,8 @@
 # Prepare a dictionary of words to choose from and save it in a txt file (one column)
 # Read the word list from your program.
 
+#### Great job you incoroporated a lot of elements to make a functional game and you documented your code really well
+
 #SetWD 
 setwd("/Users/papihajoharapurkar/Downloads/")
 
@@ -22,7 +24,7 @@ print(paste("User, the legnth of the word is",nchar(secret_word)))
 # Informing the user about the number of wrong guesses/tries allowed.
 # The length of the word * 2 is equivalent to the number of guesses user is allowed
 # A vector called 'Guesses log' is being created, will catalogue user's previously-attempted characters 
-print (paste("User, you are allowed", nchar(secret_word)*2, "incorrect guesses"))
+print (paste("User, you are allowed", nchar(secret_word)*2, "incorrect guesses")) # I liked how you chnaged the number of attempts based on the number of characters in the word
 guesses = nchar(secret_word)*2
 guesses_log <- c()
 
